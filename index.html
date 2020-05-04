@@ -3,7 +3,15 @@
 
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135348958-1"></script>
-
+  <script>
+    // Check that service workers are registered
+    if ("serviceWorker" in navigator) {
+      // Use the window load event to keep the page load performant
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/build/sw.js");
+      });
+    }
+  </script>
   <meta charset="UTF-8" />
   <title>Résumé</title>
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">

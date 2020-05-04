@@ -4,7 +4,7 @@
 ## Looks like:
 Prewiew of the resume ![here](/assets/images/donald-trump-resume.png)
 
-Hosted on [s3-website](http://danylokarpenko-staging.s3-website-ap-southeast-1.amazonaws.com/)
+Hosted on [s3-website](http://danylokarpenko-production.s3-website-ap-southeast-1.amazonaws.com/)
 Hosted on [github](https://danylokarpenko.github.io/homepage/)
 
 
